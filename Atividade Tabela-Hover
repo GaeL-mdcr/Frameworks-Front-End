@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Classe tabela</title>
+<style>
+.table-hover tbody tr:hover td {
+    background-color: #404040;
+}
+
+
+</style>
+ 
+<title>Tabela</title>
+
+</head>
+    <body>
+        <div class="container">
+            <h2>Tabela</h2>
+            
+            <table class="table table-hover ">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome </th>
+                        <th>E-Mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fabio</td>
+                        <td>Cesar</td>
+                        <td>emailfoda@gmail.com1</td>
+                    </tr>
+                    <tr>
+                        <td>Vitor</td>
+                        <td>Arroz</td>
+                        <td>emailfoda@gmail.com2</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel</td>
+                        <td>Lucas</td>
+                        <td>emailfoda@gmail.com3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+    </body>
+</html>
